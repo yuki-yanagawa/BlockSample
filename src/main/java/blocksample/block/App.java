@@ -10,9 +10,14 @@ public class App
     {
         System.out.println( "Hello World!" );
         callFunc();
+        callFunc2();
     }
 
     private static void callFunc() {
         System.out.println("Call Func.");
+    }
+
+    private static void callFunc2() {
+        System.out.println("Call Func2.");
     }
 }
