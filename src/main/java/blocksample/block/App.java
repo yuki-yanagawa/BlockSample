@@ -24,6 +24,7 @@ public class App
         callFunc();
         callFunc2();
         callFunc3();
+        callFunc6();
         callFunc4();
     }
 
@@ -37,6 +38,10 @@ public class App
 
     private static void callFunc3() {
         System.out.println("Call Func3.");
+    }
+
+    private static void callFunc6() {
+        System.out.println("Call Func6.");
     }
 
     private static void callFunc4() {
