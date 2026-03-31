@@ -6,9 +6,17 @@ package blocksample.block;
  */
 public class App 
 {
+    private static class InnerClass {
+        public void callInnerFunc() {
+            System.out.println("Call Inner Func.");
+        }
+    }
+
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+        InnerClass inner = new InnerClass();
+        inner.callInnerFunc();
         allCalls();
     }
 
