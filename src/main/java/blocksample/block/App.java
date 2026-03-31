@@ -9,6 +9,10 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+        allCalls();
+    }
+
+    private static void allCalls() {
         callFunc();
         callFunc2();
         callFunc3();
