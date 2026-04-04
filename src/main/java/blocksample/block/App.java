@@ -18,6 +18,9 @@ public class App
         InnerClass inner = new InnerClass();
         inner.callInnerFunc();
         allCalls();
+
+        OuterClass oc = new OuterClass();
+        oc.callFunc();
     }
 
     private static void allCalls() {
