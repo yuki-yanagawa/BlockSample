@@ -14,7 +14,7 @@ public class App
 
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( "Sample Calll2!" );
         InnerClass inner = new InnerClass();
         inner.callInnerFunc();
         allCalls();
